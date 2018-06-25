@@ -1,18 +1,22 @@
 # USDA_Pomological_Watercolors
 
-This repo stores data from the [USDA Pomologogical Watercolor Collection](https://usdawatercolors.nal.usda.gov/pom/home.xhtml).
+This repo stores data from the [USDA Pomologogical Watercolor Collection](https://usdawatercolors.nal.usda.gov/pom/home.xhtml):
 
 ![Collage of watercolor paintings](https://www.garrickadenbuie.com/images/project/ggpomological/pom-examples.jpg)
 
-The following information is provided:
+> > The USDA Pomological Watercolor Collection documents fruit and nut varieties developed by growers or introduced by USDA plant explorers around the turn of the 20th century. Technically accurate paintings were used to create lithographs illustrating USDA bulletins, yearbooks, and other series distributed to growers and gardeners across America
+
+The following data is provided in this repo:
 
 ## data/images/*
 
 Image directory containing a `.jpg` for each individual painting.
-There are 7584 paintings in total.
+There are 7584 images in total.
 
 
 ## data/usda_pomological_watercolors.csv
+
+Csv file containing metadata for each painting.
 
 | Column | Description | Data Type |
 |---|---|---|
@@ -26,9 +30,9 @@ There are 7584 paintings in total.
 
 ## scripts/get_pomological_data.py
 
-Python script used to scrape the data from [usda](https://naldc-legacy.nal.usda.gov/naldc/search.xhtml?start=0&collectionFacet=USDA+Pomological+Watercolor+Collection)
+Python script used to scrape the paintings.
 
-Example:
+Example use:
 
 ```
 # call without arguments
