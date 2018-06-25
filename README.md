@@ -23,7 +23,7 @@ Csv file containing metadata for each painting.
 | Column | Description | Data Type |
 |---|---|---|
 | `painting_number` | Painting number as enumerated in collection. | number |
-| `fruit` | Pomological name of the primary fruit depicted in the painting..| number |
+| `fruit` | Pomological name of the primary fruit depicted in the painting.| text |
 | `authors` |  Author(s) of the given watercolor painting. | text |
 | `subjects` | Broader classification of fruit(s) depicted in the painting. (e.g. 'apple') | text |
 | `year` | Year painting was published. | number |
