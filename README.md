@@ -5,7 +5,7 @@ This repo stores data from the [USDA Pomological Watercolor Collection](https://
 > > The USDA Pomological Watercolor Collection documents fruit and nut varieties developed by growers or introduced by USDA plant explorers around the turn of the 20th century. Technically accurate paintings were used to create lithographs illustrating USDA bulletins, yearbooks, and other series distributed to growers and gardeners across America
 
 
-![Collage of watercolor paintings](https://www.garrickadenbuie.com/images/project/ggpomological/pom-examples.jpg)
+![Collage of watercolor paintings](https://www.jwilber.me/images/usda.jpg)
 
 
 The following data is provided in this repo:
